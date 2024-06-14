@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #eff4fd;
+}
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  font-size: 20px;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: blue;
+}
+.hey {
+  margin-left: 8%;
+  margin-top: 13%;
+}
+.hey h1 {
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+span {
+  color: rgba(255, 209, 4, 0.829);
+  font-family: "Courier New", Courier, monospace;
+}
+.hey p {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #555;
+  line-height: 22px;
+  margin-right: 700px;
+  line-height: 50px;
+}
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+.images:hover .shape {
+  bottom: 40px;
+}
+.images:hover .boy {
+  left: 45%;
+}
+
+.InfoSection {
+  margin-left: 70px;
+  margin-bottom: 8px;
+  margin-right: 650px;
+  margin-top: 50px;
+}
+.InfoSection h1 {
+  color: #98969a;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 5px;
+  position: relative;
+}
+.InfoSection h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  font-weight: 600;
+  padding: 14px 0px 15px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.InfoSection p {
+  color: rgb(65, 68, 1);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+.personalInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+  margin-top: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.personalInfo div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.personalInfo div span {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+.InfoSection button {
+  min-width: 50px;
+  padding: 8px 18px;
+  border: 1px solid #787cb5;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-top: 20px;
+}
+.InfoSection button:hover {
+  color: rgba(255, 209, 4, 0.829);
+  border-color: rgba(255, 209, 4, 0.829);
+}
